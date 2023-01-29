@@ -47,13 +47,6 @@
         </spacer>
        </item>
        <item>
-        <widget class="QRadioButton" name="RAB_find_all_face">
-         <property name="text">
-          <string>find all face in picture</string>
-         </property>
-        </widget>
-       </item>
-       <item>
         <widget class="QPushButton" name="BTN_stopLive">
          <property name="text">
           <string/>
@@ -74,9 +67,6 @@
            <normaloff>../icons/PLAY_LIVE.png</normaloff>../icons/PLAY_LIVE.png</iconset>
          </property>
         </widget>
-       </item>
-       <item>
-        <widget class="QComboBox" name="CBB_camera_list"/>
        </item>
       </layout>
      </widget>
@@ -116,17 +106,6 @@
             <property name="icon">
              <iconset>
               <normaloff>../icons/TAKE_PICTURE.png</normaloff>../icons/TAKE_PICTURE.png</iconset>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <widget class="QPushButton" name="BTN_find_face">
-            <property name="text">
-             <string/>
-            </property>
-            <property name="icon">
-             <iconset>
-              <normaloff>../icons/FIND_FACE.png</normaloff>../icons/FIND_FACE.png</iconset>
             </property>
            </widget>
           </item>
@@ -179,6 +158,19 @@
          <layout class="QHBoxLayout" name="horizontalLayout_3">
           <item>
            <widget class="QLabel" name="LBL_live_camara">
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="LBL_selected_image">
+            <property name="maximumSize">
+             <size>
+              <width>400</width>
+              <height>16777215</height>
+             </size>
+            </property>
             <property name="text">
              <string/>
             </property>
